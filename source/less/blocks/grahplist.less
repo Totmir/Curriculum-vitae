@@ -1,3 +1,12 @@
+.main__section > h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.graphlist {
+    padding: 5%;
+}
+
 .graphlist__item-wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -15,22 +24,86 @@
     margin-left: 20px;
 }
 
-.progress {
+.progress-86 {
     width: 0%;
     height: 14px;
     background: #ffcd33;
-    animation-name: loading;
+    animation-name: loading86;
     animation-duration: 5s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-@keyframes loading {
+@keyframes loading86 {
     from {
         width: 0%;
     }
 
     to {
-        width: 100%;
+        width: 86%;
+    }
+}
+
+.progress-30 {
+    width: 0%;
+    height: 14px;
+    background: #ffcd33;
+    animation-name: loading30;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading30 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+.progress-80 {
+    width: 0%;
+    height: 14px;
+    background: #ffcd33;
+    animation-name: loading80;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading80 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+.progress-84 {
+    width: 0%;
+    height: 14px;
+    background: #ffcd33;
+    animation-name: loading84;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading84 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 84%;
     }
 }
