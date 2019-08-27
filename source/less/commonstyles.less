@@ -7,6 +7,44 @@ li {
     list-style-type: none;
 }
 
+p, h1, h2, h3, h4, a {
+    font-family: 'Oswald';
+    letter-spacing: 0.15em;
+}
+
 a {
     text-decoration: none;
 }
+
+.down-arrow-svg {
+    width: 50px;
+    fill: white;
+}
+
+// flexbox mixins
+
+.flex-justify-center {
+    display: flex;
+    flex-basis: 0;
+    justify-content: center;
+}
+
+.flex-justify-end {
+    display: flex;
+    flex-basis: 0;
+    justify-content: end;
+}
+
+.flex-justify-start {
+    display: flex;
+    flex-basis: 0;
+    justify-content: start;
+}
+
+.flex-justify-space-between {
+    display: flex;
+    flex-basis: 0;
+    justify-content: space-between;
+}
+
+

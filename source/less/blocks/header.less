@@ -1,10 +1,14 @@
 .header {
-    background: black;
-}
-
-.header .wrapper {
-    display: flex;
-    justify-content: space-around;
+    background: @lightgrey;
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .paragraph {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 230%;
+    }
 }
 
 .header__menu {
@@ -21,8 +25,10 @@
     justify-content: center;
     align-items: center;
     flex-basis: auto;
-    background-color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-weight: bold;
     a {
-        color: black;
+        color: white;
     }
 }
