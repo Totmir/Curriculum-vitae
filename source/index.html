@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alexandr Khokhlov (CV)</title>
+    <title>Alexandr Mir (CV)</title>
     <link rel="stylesheet" type="text/css" href="less/style.less" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/style.css.map" media="screen" />
@@ -15,9 +15,27 @@
         <div class="wrapper">
             <p class="paragraph">Alexandr Mir</p>
             <ul class="header__menu">
-                <li class="header__menu-item"><a href="#">Обо мне</a></li>
-                <li class="header__menu-item"><a href="#">Достижения</a></li>
-                <li class="header__menu-item"><a href="#">Технологии</a></li>
+                <li class="header__menu-item">
+                    <button class="button fancy-button">
+                        Навыки
+                        <div class="button__horizontal"></div>
+                        <div class="button__vertical"></div>
+                    </button>
+                </li>
+                <li class="header__menu-item">
+                    <button class="button fancy-button">
+                        Достижения
+                        <div class="button__horizontal"></div>
+                        <div class="button__vertical"></div>
+                    </button>
+                </li>
+                <li class="header__menu-item">
+                    <button class="button fancy-button">
+                        Контакты
+                        <div class="button__horizontal"></div>
+                        <div class="button__vertical"></div>
+                    </button>
+                </li>
             </ul>
         </div>
     </header>
@@ -29,7 +47,6 @@
             </div>
             <div class="content__elem">
                 <a href="#">
-                    <p class="paragraph">Показать Достижения</p>
                     <svg class="down-arrow-svg" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129"
                         enable-background="new 0 0 129 129">
@@ -43,13 +60,7 @@
         </div>
     </section>
     <section class="main">
-        <section class="main__section">
-            <div class="gallery">
-                <img src="./img/Certificate CSS lvl 1.jpg" width='265' height='auto'>
-                <img src="./img/Certificate JS lvl 1.jpg" width='265' height='auto'>
-                <img src="./img/Certificate CSS lvl 2.jpg" width='265' height='auto'>
-            </div>
-        </section>
+
         <section class="main__section">
             <h2>Навыки</h2>
             <ul class="graphlist">
@@ -87,15 +98,52 @@
                 </li>
             </ul>
         </section>
+        <section class="main__section">
+            <h2>Достижения</h2>
+            <div class="gallery">
+                <a href="https://assets.htmlacademy.ru/certificates/intensive/107/843567.pdf?1553797412"><img
+                        src="./img/Certificate CSS lvl 1.jpg" width='265' height='auto'></a>
+                <a href="https://assets.htmlacademy.ru/certificates/intensive/119/843567.pdf?1565719261"><img
+                        src="./img/Certificate JS lvl 1.jpg" width='265' height='auto'></a>
+                <a href="https://assets.htmlacademy.ru/certificates/intensive/113/843567.pdf?1559502444"><img
+                        src="./img/Certificate CSS lvl 2.jpg" width='265' height='auto'></a>
+            </div>
+        </section>
     </section>
     <footer class="footer">
         <div class="footer__bio">
             <img src="./img/Profile_photo.jpg" width='200px' height="200px">
-            <p class="paragraph">Когда-то давно Александр решил приносить пользу
-                обществу, чем умел. Умел он тогда мало, но с тех пор многое изменилось. <br> <br>Теперь Вы можете
-                заказать у него разработку сайта</p>
-            <datalist>Разобраться с датой</datalist>
         </div>
+        <ul class="footer__about">
+            <li class="footer__about-item">
+                <h4>Про Мир</h4>
+                <ul>
+                    <li>
+                        <p class="paragraph">26 лет</p>
+                    </li>
+                    <li>
+                        <p class="paragraph">Живет в Москве</p>
+                    </li>
+                    <li>
+                        <p class="paragraph">Предпочитает краткость</p>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer__about-item">
+                <h4>Достижения</h4>
+                <ul>
+                    <li>
+                        <p class="paragraph">Высшее образование (270115)</p>
+                    </li>
+                    <li>
+                        <p class="paragraph">Окончил Frontend-курсы (HTML academy)</p>
+                    </li>
+                    <li>
+                        <p class="paragraph">Поднялся на Эльбрус с севера (5621м)</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
         <div class="footer__socials">
             <ul>
                 <li>
@@ -156,36 +204,6 @@
                 </li>
             </ul>
         </div>
-        <ul class="footer__about">
-            <li class="footer__about-item">
-                <h4>Про Мир</h4>
-                <ul>
-                    <li>
-                        <p class="paragraph">26 лет</p>
-                    </li>
-                    <li>
-                        <p class="paragraph">Живет в Москве</p>
-                    </li>
-                    <li>
-                        <p class="paragraph">Предпочитает краткость</p>
-                    </li>
-                </ul>
-            </li>
-            <li class="footer__about-item">
-                <h4>Достижения</h4>
-                <ul>
-                    <li>
-                        <p class="paragraph">Высшее образование (270115)</p>
-                    </li>
-                    <li>
-                        <p class="paragraph">Окончил Frontend-курсы (HTML academy)</p>
-                    </li>
-                    <li>
-                        <p class="paragraph">Поднялся на Эльбрус с севера (5621м)</p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
     </footer>
 </body>
 

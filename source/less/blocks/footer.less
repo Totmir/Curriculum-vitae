@@ -1,26 +1,24 @@
 .footer {
-    .flex-justify-space-between;
+    display: flex;
+    justify-content: space-between;
     background: @lightgrey;
     padding-left: 5%;
     padding-right: 5%;
 }
 
 .footer__bio {
-    width: 40%;
     display: flex;
     align-items: center;
     img {
         margin-right: 20px;
-        border: 3px solid white;
+        border: 3px solid transparent;
+        border-radius: 50%;
     }
 }
 
 .footer__socials ul{
-    width: 30%;
+        width: 20%;
     text-align: center;
-}
-
-.footer__socials ul{
     margin: 0;
     height: 100%;
     display: flex;
@@ -44,11 +42,16 @@
         padding: 10px;
         text-decoration: underline;
         color: white;
+        &:hover {
+            color: purple;
+        }
     }
 }
 
 .footer__about {
-    width: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
     li {
         margin-left: -40px;
     }
