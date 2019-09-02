@@ -1,10 +1,22 @@
 .content {
     .flex-justify-center;
-
+    height: 100vh;
+    background-image: url(../img/blur-code-dark-2653362.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+    
 }
 
-h1 {
-    text-align: center;
+
+.content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
 }
 
 .content__elem {
@@ -13,9 +25,14 @@ h1 {
     }
 }
 
-.content__elem:nth-child(1) {
-    padding-bottom: 90px;
-    padding-top: 90px;
+.content__elem:nth-child(2) {
+    position: absolute;
+    margin-top: 35vh; 
+}
+
+.down-arrow-svg {
+    width: 50px;
+    fill: white;
 }
 
 .content__elem a {
