@@ -1,3 +1,5 @@
+/* start of desktop styles */
+
 .header {
     background: transparent;
     position: absolute;
@@ -25,17 +27,19 @@
 .header__menu-item {
     padding-top: 1%;
     margin-right: 10%;
+
     a {
         color: white;
+
         .paragraph {
-        font-size: 1em;
+            font-size: 1em;
         }
     }
 }
 
 .button {
-    --offset: 10px;
-    --border-size: 2px;
+    --offset: 5px;
+    --border-size: 1px;
 
     display: block;
     position: relative;
@@ -61,8 +65,9 @@
         right: var(--vertical-offset, 0);
         bottom: var(--horizontal-offset, 0);
         left: var(--vertical-offset, 0);
-        transition: transform .8s ease;
+        transition: transform .5s ease;
         will-change: transform;
+        transform: scaleX(0);
 
         &::before {
             content: '';
@@ -85,7 +90,7 @@
     }
 
     &:hover &__horizontal {
-        transform: scaleX(0);
+        transform: none;
     }
 
     &__vertical {
@@ -102,6 +107,35 @@
     }
 
     &:hover &__vertical {
-        transform: scaleY(0);
+        transform: none;
     }
+}
+
+@media (max-width: 991px) {
+
+    /* start of large tablet styles */
+    .header .wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .wrapper>.paragraph {
+        text-align: center;
+    }
+
+    .header .header__menu-item {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    /* start of medium tablet styles */
+
+}
+
+@media (max-width: 479px) {
+    /* start of phone styles */
+
 }
