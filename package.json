@@ -33,11 +33,8 @@
     "source/img/**/*.svg",
     "source/less/**/*.less"
   ],
-  "engines": {
-    "node": "8.15"
-  },
   "dependencies": {},
   "main": "index.js",
-  "author": "totmir",
+  "author": "Totdev",
   "license": "ISC"
 }
