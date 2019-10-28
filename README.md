@@ -1,3 +1,4 @@
-# Curriculum-vitae
-Frontenter CV.
-You will be proud of me. At least I do.
+# Frontenter CV
+Just code it.
+
+You can find main information about my skills and working socials in here.
